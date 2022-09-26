@@ -1,7 +1,7 @@
 #server.port: ${PORT:0}
 server.port: 10005
 
-spring.datasource.url: jdbc:postgresql://localhost:5432/postgres
+spring.datasource.url: ${DATASOURCE-URL}
 spring.datasource.username: ${BYTCORE-USER-NAME}
 spring.datasource.password: ${BYTCORE-PASSWORD}
 spring.datasource.driverClassName: org.postgresql.Driver
